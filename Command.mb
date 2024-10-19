@@ -1,0 +1,96 @@
+1 git --version
+    2  pwd
+    3  mkdir git-tutorial
+    4  ls
+    5  cd git-tutorial/
+    6  pwd 
+    7  vim hello.txt
+    8  ls -l
+    9  rm hello.txt 
+   10  vim hello.txt
+   11  cat hello.txt 
+   12  ls -l
+   13  git init
+   14  ls -l
+   15  ls -a
+   16  ls
+   17  git status
+   18  rm hello.txt 
+   19  git status
+   20  touch hello.txt
+   21  ls
+   22  touch nibba.txt
+   23  touch nibbi.txt
+   24  ls
+   25  git status
+   26  git add nibbi.txt 
+   27  git status
+   28  git add nibba.txt 
+   29  git status
+   30* 
+   31  git status
+   32  git add nibba.txt 
+   33  git status
+   34  git commit -m "adding nibba nibbi"
+   35  rm nibbi.txt 
+   36  git status
+   37  git restor nibba.txt
+   38  git status
+   39  git config --global user.name "vibhavarisaraf4555"
+   40  git config --global l user.email "vibhawarisaraf158@gmail.com"
+   41  git config --global l user.email "vibhavarisaraf4555@gmail.com"
+   42  git config --global l user.email "vibhavarisaraf4555@gmail.com" "vibhawarisaraf158@gmail.com"
+   43  git config --global l user.email "vibhawarisaraf158@gmail.com"
+   44  git config --global user.email "vibwarisaraf158@gmail.com"
+   45  git status
+   46  vim nibbi.txt 
+   47  git status
+   48  git add nibbi.txt 
+   49  git status
+   50  git commit -m "added new changes"
+   51  git commit -m "added new changes to nibbit"
+   52  git add nibbi.txt 
+   53  git commit -m "added new changes to nibbit"
+   54  git status
+   55  git add hello.txt 
+   56  git commit -m "added new changes to nibbit"
+   57  git status
+   58  ls
+   59  git log
+   60  vim nibba.txt 
+   61  git add nibba.txt 
+   62  git status
+   63  git commit -m "added nibba changes"
+   64  git status
+   65  git log
+   66  git branch
+   67  git status
+   68  git checkout -b dev
+   69  git status
+   70  git checkout master
+   71  git checkout dev
+   72  ls
+   73  touch nibbu.txt
+   74  git status
+   75  git add nibbu.txt 
+   76  git commit -m "added nibbu"
+   77  ls
+   78  git branch
+   79  git checkout master
+   80  ls
+   81  git log
+   82  git checkout dev
+   83  git log
+   84  git status
+   85  git checkout master
+   86  git switch dev
+   87  git log --oneline
+   88* git
+   89  git switch master
+   90  git log --oneline
+   91  git switch dev
+   92  git log --oneline
+   93  ls
+   94  git checkout -b from-master
+   95  git log --oneline
+   96  history
