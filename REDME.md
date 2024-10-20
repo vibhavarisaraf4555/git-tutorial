@@ -10,3 +10,4 @@ Include:
 commands
 tutorials
 videos
+projects
